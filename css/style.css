@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh; 
+    background-image: url(https://aeonmall-hadong.com.vn/wp-content/uploads/2019/09/dsc01218-750x468.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background: #ffffffd0;
+    height: 100vh;
+    width: 35%;
+    margin-left: 65%;
+}
+
+main .input-container .icon {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main .input-container .icon .material-symbols-outlined {
+    font-size: 30px;
+}
+
+main .input-container img {
+    width: 30%;
+    margin-left: 30%;
+}
+
+main .input-container h1 {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.499);
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row label {
+    margin-bottom: 10px;
+}
+.row input {
+    padding: 12px;
+    outline: none;
+    border: 1px solid rgb(211, 211, 211);
+    background: #ffffffbd;
+    border-radius: 6px;
+}
+
+.log {
+    display: flex;
+}
+
+main .input-container button {
+    padding: 16px;
+    width: 90%;
+    margin-left: 5%;
+    background: #D1307C;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.point {
+    margin-top: 42px;
+    margin-left: -50px;
+    color: white;
+}
+main .input-container .for {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    color: #d1307bb7;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    margin-left: 5%;
+    color: rgb(168, 162, 162);
+    gap: 5px;
+}
+
+
